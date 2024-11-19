@@ -1,0 +1,1 @@
+# challenge_immo_analysis
