@@ -1,6 +1,6 @@
 # **challenge_immo_analysis**
 
-![Data graph example.](https://preview.redd.it/an-analysis-on-the-current-state-of-belgian-real-estate-v0-6r25tnhnq7ha1.png?width=941&format=png&auto=webp&s=ccf3c68010a7a3ceb31c535f11021778ed735e8d)
+![Correlation Map](https://res.cloudinary.com/dqm9hy9lk/image/upload/v1732022342/correlationMap_adn0fu.png)
 
 [Description](#Description)     |       [Installation](#Installation)    |       [Usage](#Usage)    |       [Visuals](#Visuals)     |       [Contributors](#Contributors)    |      [Timeline](#Timeline)       |       [List of Improvements](#list-of-improvements)  
 
