@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06589fb-ebd8-4094-b6e7-9fc961b2d7a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/georef-belgium-postal-codes.geojson" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook Patrycja.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook Patrycja.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/georef-belgium-postal-codes.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/correlationMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/placeholder - please do not delete (yet)/Notebook Patrycja.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook Patrycja.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/placeholder - please do not delete (yet)/belgium_zipcode_map.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +32,12 @@
     &quot;assignee&quot;: &quot;pschchowah&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Dadelidodu/challenge_immo_analysis.git",
-    "accountId": "c9b33ace-353e-49c8-81e5-9780538885b4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Dadelidodu/challenge_immo_analysis.git&quot;,
+    &quot;accountId&quot;: &quot;c9b33ace-353e-49c8-81e5-9780538885b4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -44,22 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "Patrycja",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Patrycja&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/placeholder - please do not delete (yet)" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -79,6 +84,9 @@
       <option name="presentableId" value="Default" />
       <updated>1732006346327</updated>
       <workItem from="1732006347346" duration="5871000" />
+      <workItem from="1732117055232" duration="131000" />
+      <workItem from="1732117191127" duration="1835000" />
+      <workItem from="1732175960507" duration="24277000" />
     </task>
     <servers />
   </component>
