@@ -1,0 +1,7 @@
+folium
+branca
+streamlit
+geopandas
+streamlit_folium
+pandas
+plotly
