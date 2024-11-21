@@ -12,9 +12,6 @@ df = pd.read_csv(scraping_results_path)
 df = df.dropna(subset=['Price', 'Number of Rooms'])
 
 
-# # Encode type of property (House = 1, Apartment = 0)
-df['Type of Property'] = df['Type of Property'].replace({'House': 1, 'Apartment': 0}).infer_objects(copy=False)
-
 # Drop Type of Sale
 df= df.drop(columns=['Type of Sale'])
 
@@ -43,7 +40,7 @@ df.loc[df['Subtype of Property'] == 'apartment', 'Surface of the Land (m2)'] = d
 df = df.dropna(subset=['Surface of the Land (m2)'])
 
 # # Drop missing values in the 'Primary Energy Consumption (kWh/m2)' column
-df = df.dropna(subset=['Primary Energy Consumption (kWh/m2)'])
+df['Primary Energy Consumption (kWh/m2)'] = df['Primary Energy Consumption (kWh/m2)'].fillna(0)
 
 # Encode state of the building: Ordinal encoding, since categories have inherent order + drop null values
 state_mapping = {
@@ -56,7 +53,7 @@ state_mapping = {
 }
 
 df['State of the Building'] = df['State of the Building'].replace(state_mapping)
-df = df.dropna(subset=['State of the Building'])
+df['State of the Building'] = df['State of the Building'].fillna(0)
 
 # Encode PEB: Ordinal encoding, since categories have inherent order + drop null values
 PEB_mapping = {
@@ -70,7 +67,7 @@ PEB_mapping = {
 }
 
 df['PEB'] = df['PEB'].replace(PEB_mapping)
-df = df.dropna(subset=['PEB'])
+df['PEB'] = df['PEB'].fillna(0)
 
 # # Drop Construction Year column
 df = df.drop(columns=['Construction Year'])
@@ -80,7 +77,7 @@ df = df.drop_duplicates(subset=['Price', 'Livable Space (m2)', 'Number of Rooms'
 
 # Drop outliers
 
-df = df[(df['Price'] >= (df['Price'].mean() - 0.5 * df['Price'].std())) & (df['Price'] <= (df['Price'].mean() + 0.01 * df['Price'].std()))]
+df = df[(df['Price'] >= (df['Price'].mean() - 0.5 * df['Price'].std())) & (df['Price'] <= (df['Price'].mean() + 0.5 * df['Price'].std()))]
 df = df[(df['Number of Rooms'] >= (df['Number of Rooms'].mean() - 7 * df['Number of Rooms'].std())) & (df['Number of Rooms'] <= (df['Number of Rooms'].mean() + 3 * df['Number of Rooms'].std()))]
 df = df[(df['Primary Energy Consumption (kWh/m2)'] <= (df['Primary Energy Consumption (kWh/m2)'].mean() + 0.001 * df['Primary Energy Consumption (kWh/m2)'].std()))]
 df = df[(df['Surface of the Land (m2)'] <= (df['Surface of the Land (m2)'].mean() + 5 * df['Surface of the Land (m2)'].std()))]
@@ -89,7 +86,7 @@ df = df[(df['Livable Space (m2)'] >= (df['Livable Space (m2)'].mean() - 1.2 * df
 
 # # # Set all values as int
 
-df_droped = df.drop(columns=['Subtype of Property', 'Locality', 'Url'])
+df_droped = df.drop(columns=['Type of Property', 'Subtype of Property', 'Locality', 'Url'])
 columns_list = df_droped.columns.tolist()
 
 for column in columns_list:
