@@ -40,7 +40,6 @@ Take the dataset previously scraped to do the analysis.
 4. Make sure the necessary files are available in '/data' directory.
 
 ## **Usage**
-
 1. Run the Scripts/01_Dataset_cleaning:
    ```bash
    output is data/cleaned_dataset.csv
@@ -57,9 +56,6 @@ Take the dataset previously scraped to do the analysis.
    ```bash
    The app should run on Local Host and new tab will open in your browser
 
-
-### Link to the app --> https://immobelgium.streamlit.app/
-
 ## **Visuals**
 Visual representations are crucial for understanding data trends and patterns. Key visualizations created in this project include:
 
@@ -72,7 +68,15 @@ Visual representations are crucial for understanding data trends and patterns. K
 Immo Eliza app provides interactive visualisations which make the user really appreciate the data. 
 It guarantees immediate insights and draws attention to the most interesting aspects of the data set.
 
-https://immoprediction.streamlit.app/
+1. Immo Eliza Dashboard with heatmaps, correlation matrixes & dataset acces:
+   ```bash
+   https://immobelgium.streamlit.app/
+
+2. Immo Eliza Prediction Model (Test):
+   ```bash
+   https://immoprediction.streamlit.app/
+   
+
 
 ## **Contributors**
 David - https://github.com/Dadelidodu
