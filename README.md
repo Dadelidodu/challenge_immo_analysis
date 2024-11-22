@@ -69,11 +69,9 @@ Immo Eliza app provides interactive visualisations which make the user really ap
 It guarantees immediate insights and draws attention to the most interesting aspects of the data set.
 
 1. Immo Eliza Dashboard with heatmaps, correlation matrixes & dataset acces:
-   ```bash
    https://immobelgium.streamlit.app/
 
 2. Immo Eliza Prediction Model (Test):
-   ```bash
    https://immoprediction.streamlit.app/
    
 
