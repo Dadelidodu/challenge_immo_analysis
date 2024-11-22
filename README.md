@@ -1,6 +1,6 @@
 # **challenge_immo_analysis**
 
-![Scatter Plots Evolution](https://res.cloudinary.com/dqm9hy9lk/image/upload/v1732211780/5._Price_vs._Liveable_Space_Distribution_Across_Data_Sets_ixb4tz.png)
+![ImmoBelgium App](https://res.cloudinary.com/dqm9hy9lk/image/upload/v1732269463/dashboard_heatmap_osedby.jpg)
 
 [Description](#Description)     |       [Installation](#Installation)    |       [Usage](#Usage)    |       [Visuals](#Visuals)     |       [App](#App)     | [Contributors](#Contributors)    |      [Timeline](#Timeline)       |       [List of Improvements](#list-of-improvements)  
 
