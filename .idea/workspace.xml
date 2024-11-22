@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c06589fb-ebd8-4094-b6e7-9fc961b2d7a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/georef-belgium-postal-codes.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/correlationMap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/placeholder - please do not delete (yet)/Notebook Patrycja.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook Patrycja.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/placeholder - please do not delete (yet)/belgium_zipcode_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebook Patrycja.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook Patrycja.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/1. rows_columns_barplots.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/1. rows_columns_barplots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/2. non_null_counts_dtypes.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/2. non_null_counts_dtypes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/4. Percentage Null to Non-Null.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/4. Percentage Null to Non-Null.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/5. Price vs. Liveable Space Distribution Across Data Sets.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/5. Price vs. Liveable Space Distribution Across Data Sets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Plots" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/placeholder - please do not delete (yet)" />
@@ -86,7 +89,7 @@
       <workItem from="1732006347346" duration="5871000" />
       <workItem from="1732117055232" duration="131000" />
       <workItem from="1732117191127" duration="1835000" />
-      <workItem from="1732175960507" duration="24277000" />
+      <workItem from="1732175960507" duration="31442000" />
     </task>
     <servers />
   </component>
