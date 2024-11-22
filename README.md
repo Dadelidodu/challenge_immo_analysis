@@ -41,6 +41,23 @@ Take the dataset previously scraped to do the analysis.
 
 ## **Usage**
 
+1. Run the Scripts/01_Dataset_cleaning:
+   ```bash
+   output is data/cleaned_dataset.csv
+
+2. Run the Scripts/02_Dataset_normalizing:
+   ```bash
+   output is data/normalized_dataset.csv
+
+3. Run the main.py:
+   ```bash
+   check if no error in script
+
+4. Run this command in Terminal : 'streamlit run main.py':
+   ```bash
+   The app should run on Local Host and new tab will open in your browser
+
+
 ### Link to the app --> https://immobelgium.streamlit.app/
 
 ## **Visuals**
